@@ -1,3 +1,7 @@
+import telebot
+from telebot import types
+
+bot = telebot.TeleBot('TOKEN')
 translator = Translator()
 user_data = {}
  
